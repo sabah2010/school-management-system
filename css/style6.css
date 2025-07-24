@@ -1,0 +1,63 @@
+body {
+    background-image: url('../images/school1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* لضبط الطول على الشاشة بالكامل */
+    display: flex;
+    flex-direction: column; /* لترتيب المحتوى عمودياً */
+    align-items: center;
+}
+
+h1 {
+    color: #f5a623;
+    font-size: 55px;
+    text-shadow: 2px 2px 4px rgba(255, 192, 203, 0.8);
+    margin-top: 50px; /* للحفاظ على بعض المساحة في الأعلى */
+}
+
+.login-container {
+    flex: 1; /* لملء المساحة المتبقية */
+    display: flex;
+    justify-content: center; /* توسيط أفقي */
+    align-items: center; /* توسيط عمودي */
+    width: 100%; /* لضمان أن الحاوية تمتد بعرض الصفحة */
+}
+
+.login-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 192, 203, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 22px;
+    color: #ffffff;
+    background-color: #7D053F;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #6a5867;
+}

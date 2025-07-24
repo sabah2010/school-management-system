@@ -1,0 +1,135 @@
+        body {
+            background-image: url('../images/school2.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif; 
+            color: #ffffff;
+        }
+        h1 {
+            color: #f5a623; 
+            font-size: 55px; 
+            text-shadow: 2px 2px 4px rgba(255, 192, 203, 0.8); 
+            margin-top: 55px; 
+        }
+        table {
+            width: 80%;
+            margin: 40px auto;
+            border-collapse: collapse;
+            background-color: rgba(50, 50, 50, 0.8); 
+            color: #ffffff;
+            border-radius: 10px;
+        }
+        th, td {
+            padding: 8px;
+            text-align: center;
+            border-bottom: 1px solid #f5a623; 
+        }
+        th {
+            background-color: rgba(0, 0, 0, 0.7); 
+        }
+        .add-button {
+            padding: 10px 20px;
+            font-size: 18px;
+            color: #ffffff;
+            background-color: #f5a623;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .add-button:hover {
+            background-color: #e58a00;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            color: #ffffff;
+            background-color: #800080; 
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+			text-align: center;
+            transition: background-color 0.3s;
+            text-decoration: none;
+        }
+        button:hover {
+            background-color: #6a006a;
+        }
+        .disabled {
+            background-color: #555;
+            cursor: not-allowed;
+        }
+        .pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            margin: 20px;
+        }
+        .pagination-info {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 18px;
+        }
+		
+        .modal-content {
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+        }
+        .modal-header {
+            background-color: #f5a623;
+            color: #fff;
+        }
+        .modal-body {
+            background-color: rgba(255, 192, 203, 0.8);
+            color: #333;
+        }
+        .modal-footer {
+            background-color: #f5a623;
+        }
+        .btn-home {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 18px;
+            color: #ffffff;
+            background-color: #806D7E;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+        .btn-home:hover {
+            background-color: #0056b3;
+        }
+        .edit-button {
+            padding: 10px 20px;
+            font-size: 18px;
+            color: #ffffff;
+            background-color: #800080; 
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            text-decoration: none; 
+        }
+        .edit-button:hover {
+            background-color: #6a006a; 
+        }
+		.pdf-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #800080; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+    text-decoration: none;
+}
+
+.pdf-button:hover {
+    background-color: #6a006a; 
+}
+

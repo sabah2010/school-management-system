@@ -1,0 +1,55 @@
+        body {
+           background-image: url('../images/school2.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 110vh;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+		
+        h1 {
+            color: #f5a623; /* Bright color for the title */
+            font-size: 80px; /* Increased font size for the title */
+            text-shadow: 2px 2px 4px rgba(255, 192, 203, 0.8); /* Subtle shadow for effect */
+            margin-bottom: 40px; /* Space below the title */
+            text-align: center; /* Center the title */
+        }
+        .icon-container {
+            display: flex;
+            flex-direction: column; /* Arrange icons in a column */
+            align-items: center; /* Center the icons */
+        }
+        .row {
+            display: flex; /* Allow the first two icons to be side by side */
+            justify-content: center; /* Center the row */
+            margin-bottom: 50px; /* Space below the row */
+        }
+        .icon {
+            width: 300px; /* Increased icon size */
+            height: 300px; /* Increased icon size */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #ffccf2; /* Light pink background for icons */
+            border-radius: 10px;
+            margin: 0 30px; /* Increased space between the two icons */
+            transition: transform 0.3s;
+        }
+        .icon:hover {
+            transform: scale(1.1);
+        }
+        .icon img {
+            width: 80%; /* Make image fill the icon */
+            height: auto;
+        }
+        .icon-text {
+            margin-top: 10px;
+            color: black; /* Black text color for better visibility */
+            font-size: 22px; /* Increased font size for better visibility */
+        }
+       
